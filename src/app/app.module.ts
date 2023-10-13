@@ -10,7 +10,8 @@ import { Route } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { CoursesComponent } from './courses/courses.component';
-import { CategoriesComponent } from './categories/categories.component'; 
+import { CategoriesComponent } from './categories/categories.component';
+import { FooterComponent } from './footer/footer.component'; 
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CategoriesComponent } from './categories/categories.component';
     HomeComponent,
     AboutUsComponent,
     CoursesComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

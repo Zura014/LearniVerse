@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior:smooth;
 }
 
 .home-head{
     width: 100%;
-    height: 91.4vh;
+    height: 85vh;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 18vh;
 }
 
 .copywriteTxt h1{
@@ -24,16 +25,102 @@
     font-size: 28px;
     padding: 10px 15px;
     border-radius: 15px;
-    border: 1px solid white;
-    color: white;
-    background-color: blueviolet;
-    font-weight: bold;
-    transition: all .25s;
-}
-
-.enrollToday:hover{
     color: blueviolet;
     background-color: white;
     border: 1px solid blueviolet;
+    
+    font-weight: bold;
+    transition: all .25s;
+    margin-bottom: 8px;
+}
+
+.enrollToday:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: blueviolet;
     transition: all .25s;
 }
+
+.home-mid{
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.courses-cwt{
+    width: 45vh;
+    max-height: 75vh;
+    height: 100%;
+    padding: 0 11vh ;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.courses-cwt button {
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    color: blueviolet;
+    padding: 10px 20px;
+}
+
+
+.l-section{
+    max-height: 75vh;
+    height: 100%;    
+    background-color: blueviolet;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 45vh;
+}
+
+.r-section{
+    max-height: 75vh;
+    height: 100%;
+    width: 100vh;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.course1{
+    grid-area: course1;
+    height: 35vh;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    text-align: center;
+}
+.course2, .course3, .course4, .course5{
+    grid-area: course2;
+    height: 17.5vh;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    text-align: center;
+}
+.course3{
+    grid-area: course3;
+}
+.course4{
+    grid-area: course4;
+}
+.course5{
+    grid-area: course5;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-areas:
+    'course1 course1 course2 course3'
+    'course1 course1 course4 course5';
+    gap: 2px;
+    margin-bottom: 30px;
+}
+
