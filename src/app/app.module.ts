@@ -3,10 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { Route } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { CoursesComponent } from './courses/courses.component';
+import { CategoriesComponent } from './categories/categories.component'; 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SignUpComponent,
+    SignInComponent,
+    HomeComponent,
+    AboutUsComponent,
+    CoursesComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
@@ -15,4 +30,5 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

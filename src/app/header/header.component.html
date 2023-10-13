@@ -1,0 +1,98 @@
+<header class="bg-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-8 w-auto" src="../../assets/photos/387472760_276751085226550_7339327397020698001_n.png" alt="">
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Open main menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">         
+          <a id="hhome" class="text-sm font-semibold leading-6 text-gray-900" routerLink="/">Home</a>
+          <a id="hcourses" class="text-sm font-semibold leading-6 text-gray-900" routerLink="/courses">Courses</a>
+          <a id="hcategories" class="text-sm font-semibold leading-6 text-gray-900" routerLink="/categories">Categories</a>
+          <a id="habout-us" class="text-sm font-semibold leading-6 text-gray-900" routerLink="/about-us">About Us</a>
+        </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900" style="
+          margin-right: 50px;
+          color:white; 
+          background-color: blueviolet;
+          padding-left: 8px;
+          padding-right: 8px;
+          border-radius: 8px;
+          " routerLink="/sign-up">Start Learning</a>
+        <a class="text-sm font-semibold leading-6 text-gray-900" style="color: #38598b;"routerLink="/sign-in">Sign in </a>
+      </div>
+    
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+        <!-- burger menu ar mushaobs -->
+
+
+      <div class="fixed inset-0 z-10"></div>
+      <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" id='burgerMenu'>
+        <div class="flex items-center justify-between">
+          <a href="/" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="./../../assets/photos/387472760_276751085226550_7339327397020698001_n.png" alt="">
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="closeBtn"> 
+
+<!-- vcade
+            onclick="
+          function closeMenu(){
+            document.getElementById('burgerMenu').style.marginLeft = '100px';
+            document.getElementById('burgerMenu').style.transition = 'all 0.5s';
+          }
+          closeMenu(); -->
+
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a id="hhome"class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/">Home</a>
+              <a id="hcourses"class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/courses">Courses</a>
+              <a id="hcategories" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/categories">Categories</a>
+              <a id="habout-us" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/about-us">About Us</a>
+            </div>
+            <div class="py-6">
+              <a class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/sign-up"  style="
+                margin-right: 50px;
+                color:white; 
+                background-color: blueviolet;
+                padding: 5px 10px;
+                border-radius: 8px;
+                width: 123px; 
+                margin-bottom: 12px;
+                ">Start Learning</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" routerLink="/sign-in">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

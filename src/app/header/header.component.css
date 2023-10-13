@@ -1,0 +1,42 @@
+.bg-white{
+    background-color: #e7eaf6;
+}
+
+header div a {   
+    color: black;
+}
+
+#hhome{
+    opacity: 1;
+    transition:all 0.2s;
+}
+
+#hhome:hover{
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+#hcourses{
+    opacity: 1;
+    transition:all .2s ;
+}
+#hcourses:hover{
+    opacity: 0.8;
+    transition:all .2s ;
+}
+#hcategories{
+    opacity: 1;
+    transition:all .2s ;
+}
+#hcategories:hover{
+    opacity: 0.8;
+    transition:all .2s ;
+}
+#habout-us{
+    opacity: 1;
+    transition:all .2s ;
+}
+#habout-us:hover{
+    opacity: 0.8;
+    transition:all .2s ;
+}
