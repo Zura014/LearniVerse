@@ -42,14 +42,15 @@
     height: 75vh;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 140px;
-    padding-bottom: 100px;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
     margin-top: 0;
 }
 
 .courses-cwt{
+    max-height: 75vh;
     height: 100%;
-    padding: 40px 102px;
+    padding: 0 11vh ;
     color: white;
     font-size: 22px;
     font-weight: 500;
@@ -82,7 +83,6 @@
 
 
 .l-section{
-    max-height: 75vh;
     height: 100%;    
     background-color: blueviolet;
     border: 1px solid rgb(255, 255, 255);
@@ -104,13 +104,18 @@
     border-radius: 5px;
     border: 1px solid blueviolet;
     text-align: center;
+    cursor: pointer;
 }
-.course2, .course3, .course4, .course5{
+.course2, 
+.course3, 
+.course4, 
+.course5{
     grid-area: course2;
     height: 17.5vh;
     border: 1px solid blueviolet;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
 }
 .course3{
     grid-area: course3;
